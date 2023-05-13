@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(180, 180, 180);
+}
+
+.Inicial {
+  height: 100vh;
+  background-image: url(./assets/Coração.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.Inicial .Inicial-content {
+    max-width: none;
+}
+
+.Inicial h1 {
+    color: rgb(219, 13, 13);
+    text-align: center;
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 450px;
+    margin-top: -250px;
+}
+
+.Inicial h3 {
+    text-align: center;
+    color: rgb(219, 13, 13);
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.Inicial p {
+    text-align: center;
+    color: rgb(219, 13, 13);
+    position: relative;
+    font-size: 29px;
+    font-weight: 700;
+    padding: 10px;
+    height: 15px;
+    margin-top: 120px;
+    margin-left: 400px;
+}
